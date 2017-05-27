@@ -1,0 +1,73 @@
+body{
+	font-family: 'Nunito', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+a{
+	text-decoration:underline !important;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+
+.table-striped>tbody>tr:first-child, .panel-default>.panel-heading {
+	background-color: #FEBC11 !important;
+}
+
+.tab{
+	border: 2px solid black; 
+	border-radius: 10px 10px 0px 0px; 
+	display: inline-block;
+	padding: 0.2em 1em;
+	font-size: larger;
+	text-decoration: none !important;
+}
+
+.tab a, .btn {
+	text-decoration:none !important;
+}
+
+
+.spaceFromTop{
+	margin-top: 15%;
+}
+
+
+.checkoutIcon{
+	height: 120px;
+	width: 75px;
+}
+
+.searchIcon{
+	height: 185px;
+	width: 110px;
+}
+
+.detailIcon{
+	height: 330px;
+	width: 235px;
+}
+
+
+.largerFont{
+	font-size:larger;
+}
+
+
+#header{
+	margin-top: 1em;
+}
+
+#content, #header, .row{
+	max-width: 100%;
+}
+
+#ksulogo{
+	height: 45px;
+	width: auto;
+}
